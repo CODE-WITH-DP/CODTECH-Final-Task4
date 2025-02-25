@@ -8,7 +8,7 @@
 
 # Overview of the Project
 
-### Project: REAL-TIME CHAT APPLICATION
+### Project: BUILD A CHROME EXTENSION FOR PRODUCTIVITY MANAGEMENT
 - The Real-Time Chat Application is a modern communication platform that allows users to exchange messages instantly.
 Built using the MERN stack, this application demonstrates real-time data synchronization between multiple clients,
 providing an efficient, scalable, and user-friendly interface for chatting. The project implements features like user authentication,
@@ -27,9 +27,11 @@ The primary goal of this project is to develop a fully functional real-time mess
 
 ### Key Activities:
 
-**Setting up the Development Environment:**
-- Configuring the MERN stack.
-- Initializing the project structure.
+**Project Setup & Initialization:**
+- Set up the project structure.
+- Configure manifest.json (v3) for Chrome extension.
+- Initialize a React-based popup UI using Vite.
+- Set up Node.js, Express, and MongoDB for backend services.
   
 **Backend Development:**
 - Designing the database schema for users and chat messages.
@@ -37,9 +39,11 @@ Implementing RESTful APIs for user registration, login, and chat functionalities
 Integrating WebSocket (Socket.IO) for real-time communication.
 
 **Frontend Development:**
-- Designing responsive UI components for chat rooms, login, and signup pages using React.js.
-Integrating APIs to handle user interactions and real-time updates.
-
+- Design the user interface for task management and time tracking.
+- Implement Chrome extension popup and options page.
+- Develop content scripts and background service workers.
+- Integrate state management (Context API or Redux if necessary).
+  
 **Authentication and Authorization:**
 - Implementing secure user authentication using bcrypt for password hashing and JWT for session management.
 Restricting access to unauthorized users.
@@ -51,8 +55,6 @@ Restricting access to unauthorized users.
 
 **Frontend:**
 - React.js
-- Redux
-- TailwindCSS + Daisy UI
   
 **Backend:**
 - Node.js
@@ -60,16 +62,6 @@ Restricting access to unauthorized users.
   
 **Database:**
 - MongoDB with Mongoose ORM.
-  
-**Real-Time Communication:**
-- Socket.IO
-  
-**Authentication:**
-- JWT
-- bcrypt
 
 **Additional Tools**
 - Git - Version control.
-- Postman - API testing.
-- ESLint and Prettier - For code quality and formatting.
-- Dotenv - For environment variable management.
